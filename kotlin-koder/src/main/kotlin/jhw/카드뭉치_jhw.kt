@@ -7,17 +7,17 @@ class 카드뭉치_jhw {
         for(element in goal) {
             if(cards1.contains(element)) {
                 if(!cards1[cards1_index].equals(element)) {
-                    return "NO";
+                    return "No";
                 }
                 cards1_index++
             }
             if(cards2.contains(element)) {
                 if(!cards2[cards2_index].equals(element)) {
-                    return "NO";
+                    return "No";
                 }
                 cards2_index++
             }
         }
-        return "YES"
+        return "Yes"
     }
 }
