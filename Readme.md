@@ -13,4 +13,4 @@
 - 문자열나누기(https://school.programmers.co.kr/learn/courses/30/lessons/140108)
 
 ## 3주차 문제
-- https://school.programmers.co.kr/learn/courses/30/lessons/136798
+- 기사단원의 무기(https://school.programmers.co.kr/learn/courses/30/lessons/136798)
