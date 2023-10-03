@@ -1,4 +1,4 @@
-class Solution {
+class 문자열_나누기_cws {
     fun solution(s: String): Int {
         var answer: Int = 0
         var nowChar = '0'
