@@ -1,6 +1,6 @@
 package cws
 
-class Solution {
+class 카드_뭉치_cws {
     fun solution(cards1: Array<String>, cards2: Array<String>, goal: Array<String>): String {
         var goalIdx = 0
         var idx1 = 0
