@@ -5,12 +5,12 @@
 - 문제이름_패키지명
 
 
-## 1주차 문제
+## 문제
 
 - 카드뭉치(https://school.programmers.co.kr/learn/courses/30/lessons/159994?language=kotlin)
-
-## 2주차 문제
 - 문자열나누기(https://school.programmers.co.kr/learn/courses/30/lessons/140108)
-
-## 3주차 문제
 - 기사단원의 무기(https://school.programmers.co.kr/learn/courses/30/lessons/136798)
+
+### 11월23일
+- https://school.programmers.co.kr/learn/courses/30/lessons/42890
+- https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&levels=2&languages=kotlin&page=1
