@@ -13,4 +13,4 @@
 
 ### 11월23일
 - https://school.programmers.co.kr/learn/courses/30/lessons/42890
-- https://school.programmers.co.kr/learn/challenges?order=acceptance_desc&levels=2&languages=kotlin&page=1
+- https://school.programmers.co.kr/learn/courses/30/lessons/42586
