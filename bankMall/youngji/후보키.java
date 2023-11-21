@@ -1,0 +1,82 @@
+import java.util.*;
+
+class Solution {
+    public int solution(String[][] relation) {
+        int answer = 0;
+        int rowCount = relation.length;
+        int columnCount = relation[0].length;
+        
+        // 인덱스 배열 초기화
+        List<Integer> arr = new ArrayList<>();
+        for (int i = 0; i < columnCount; i ++){
+            arr.add(i);
+        }
+
+        List<List<Integer>> except = new ArrayList<>();
+        
+        for (int i = 1; i <= columnCount; i ++){
+            List<List<Integer>> result = new ArrayList<>();
+            combination(arr, new boolean[columnCount], 0, i, result); // 조합 구하기
+            result = removeExceptCombination(result, except);
+
+            for(List<Integer> indexes : result) {
+                Set<String> set = getCombinationContents(relation, indexes);
+                if(set.size() == rowCount){
+                    answer += 1;
+                    except.add(indexes);
+                }
+            }
+        }
+        return answer;
+    }
+    
+    // 백트래킹 이용해서 조합구하기 
+    public void combination(List<Integer> arr, boolean[] visit, int start, int r, List<List<Integer>> result){ 
+        if (r == 0){
+            List<Integer> visitIndex = new ArrayList<>();
+            for (int i = 0; i < visit.length; i++){
+                if(visit[i])
+                    visitIndex.add(arr.get(i));
+            }
+            result.add(visitIndex);
+            return;
+        }else {
+            for (int i = start; i< arr.size(); i ++){
+                visit[i] = true;
+                combination(arr, visit, i + 1, r - 1, result);
+                visit[i] = false;
+            }
+        }
+    }
+    
+    // 인덱스 조합 set 구하기
+    public Set<String> getCombinationContents(String[][] relation, List<Integer> indexes){
+        Set<String> result = new HashSet<>();
+        
+        for (String[] row : relation){
+            String contents = "";
+            for (Integer index : indexes){
+                contents = contents + row[index];
+            }
+            result.add(contents);
+        }
+        
+        return result;
+    }
+    
+    public List<List<Integer>> removeExceptCombination(List<List<Integer>> target, List<List<Integer>> except) {
+        if (except.isEmpty())
+            return target;
+        List<List<Integer>> remove = new ArrayList<>();
+        for (int i = 0; i < target.size(); i ++){
+            for (int j = 0; j < except.size(); j++){
+                if (target.get(i).containsAll(except.get(j))){
+                    remove.add(target.get(i));
+                    break;
+                }
+            }
+        }
+        target.removeAll(remove);
+        return target;
+    }
+}
