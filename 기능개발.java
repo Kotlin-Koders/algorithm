@@ -1,0 +1,24 @@
+import java.util.*;
+class 기능개발 {
+    public int[] solution(int[] progresses, int[] speeds) {
+        List<Integer> answer = new ArrayList<>();
+        Queue<Integer> workDays = new LinkedList<>();
+        for (int i = 0; i < progresses.length; i++){
+            workDays.add((int) Math.ceil(((double)100 - progresses[i]) / speeds[i]));
+        }
+        Integer target = workDays.poll();
+        Integer count = 1; // target 자신
+        while (!workDays.isEmpty()){
+            Integer value = workDays.poll();
+            if (target >= value){
+                count += 1;
+            }else {
+                answer.add(count);
+                target = value;
+                count = 1;
+            }
+        }
+        answer.add(count);
+        return answer.stream().mapToInt(i->i).toArray();
+    }
+}
