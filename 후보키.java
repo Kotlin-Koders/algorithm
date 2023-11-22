@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class 후보키 {
     public int solution(String[][] relation) {
         int answer = 0;
         int rowCount = relation.length;
