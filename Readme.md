@@ -26,3 +26,5 @@ Solve the algorithm every week.
 | [기사단원의 무기](https://school.programmers.co.kr/learn/courses/30/lessons/136798) | Description of the Templar's Weapon problem | YYYY-MM-DD |
 | [후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890) | Description of the Candidate Key problem | YYYY-MM-DD |
 | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | Description of the Functional Development problem | YYYY-MM-DD |
+| [N개의 최소공배수](https://school.programmers.co.kr/learn/courses/30/lessons/12953) | Description of the Functional Development problem | YYYY-MM-DD |
+| [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | Description of the Functional Development problem | YYYY-MM-DD |
