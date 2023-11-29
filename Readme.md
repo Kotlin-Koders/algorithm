@@ -1,16 +1,26 @@
-## 알고리즘 스터디
+# Algorithm Study
 
-## 파일명 규칙
+Welcome to my algorithm study repository! This repository is dedicated to documenting my journey in learning and practicing algorithms.
 
-- 문제이름_패키지명
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Rule](#Rule)
+- [Algorithms](#algorithms)
+
+## Introduction
+
+Explain the purpose of your repository, why you're studying algorithms, and what others can expect to find here. This section sets the stage for your project.
+
+## Rule
+
+Solve the algorithm every week.
 
 
-## 1주차 문제
+## Algorithms
 
-- 카드뭉치(https://school.programmers.co.kr/learn/courses/30/lessons/159994?language=kotlin)
-
-## 2주차 문제
-- 문자열나누기(https://school.programmers.co.kr/learn/courses/30/lessons/140108)
-
-## 3주차 문제
-- 기사단원의 무기(https://school.programmers.co.kr/learn/courses/30/lessons/136798)
+| Date Solved | Problem | 
+|---------|-------------|
+| 🙌 | [카드뭉치](https://school.programmers.co.kr/learn/courses/30/lessons/159994?language=kotlin)<br> [문자열나누기](https://school.programmers.co.kr/learn/courses/30/lessons/140108) <br> [기사단원의 무기](https://school.programmers.co.kr/learn/courses/30/lessons/136798) |
+| 2023-11-23 | [후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890)<br> [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) |
+| 2023-11-30 | [N개의 최소공배수](https://school.programmers.co.kr/learn/courses/30/lessons/12953)<br> [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | 
