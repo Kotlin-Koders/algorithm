@@ -18,7 +18,7 @@ class Solution {
     public int solution(int[] arr) {
         LcmCalculator lcmCalculator = new LcmCalculator(arr[0]);    
         Arrays.stream(arr)
-            .forEach(it -> lcmCalculator.calculate(it));
+            .forEach(it -> lcmCalculator::calculate);
         return lcmCalculator.result();
     }
 }
