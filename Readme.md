@@ -24,4 +24,4 @@ Solve the algorithm every week.
 | 🙌 | [카드뭉치](https://school.programmers.co.kr/learn/courses/30/lessons/159994?language=kotlin)<br> [문자열나누기](https://school.programmers.co.kr/learn/courses/30/lessons/140108) <br> [기사단원의 무기](https://school.programmers.co.kr/learn/courses/30/lessons/136798) |
 | 2023-11-23 | [후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890)<br> [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) |
 | 2023-11-30 | [N개의 최소공배수](https://school.programmers.co.kr/learn/courses/30/lessons/12953)<br> [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | 
-| 2023-12-07 |[다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583)<br>|
+| 2023-12-07 |[다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583)<br> [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476) |
