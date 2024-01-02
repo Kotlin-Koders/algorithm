@@ -26,4 +26,5 @@ Solve the algorithm every week.
 | 2023-11-30 | [N개의 최소공배수](https://school.programmers.co.kr/learn/courses/30/lessons/12953)<br> [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | 
 | 2023-12-07 |[다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583)<br> [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476) |
 | 2023-12-14 | [뒤에 있는 큰 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/154539)<br> [할인 행사](https://school.programmers.co.kr/learn/courses/30/lessons/131127) |
-| 2023-12-27 | [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578)<br> [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)<br> [주식가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584)<br> [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | 
+| 2023-12-27 | [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578)<br> [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)<br> [주식가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584)<br> [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) |
+| 2024-01-02 | [무인도 여행](https://school.programmers.co.kr/learn/courses/30/lessons/154540)<br> [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502) |
