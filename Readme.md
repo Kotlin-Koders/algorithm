@@ -16,6 +16,11 @@ Explain the purpose of your repository, why you're studying algorithms, and what
 
 Solve the algorithm every week.
 
+### PR 컨벤션
+
+- [이름] 주차별로 푼 문제 제목 나열
+- 예시) [최우석] 문제1, 문제2, 문제3
+
 
 ## Algorithms
 
